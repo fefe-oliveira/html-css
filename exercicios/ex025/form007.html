@@ -16,7 +16,7 @@
                 <oppgroup label="Região Sudeste">
                     <option value="MG">Minas Gerais</option>
                     <option value="RJ">Rio de Janeiro</option>
-                    <option value="SP" selected>São Paulo</option>
+                    <option value="SP">São Paulo</option>
                 </oppgroup>
                     <oppgroup label="Região Nordeste">
                         <option value="MA">Maranhão</option>
@@ -25,6 +25,16 @@
                     </oppgroup>
             </select>
         </p>
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="ADM">Administrador</option>
+                    <option value="CONT">Contabilista</option>
+                    <option value="DEV">Desenvolvedor</option>
+                    <option value="PROF">Professor</option>
+                </datalist>
+            </p>
 
         <p>
             <input type="submit" value="Enviar">
