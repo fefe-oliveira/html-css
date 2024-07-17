@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Para Impressoras */
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+body {
+    background-color: lightgray;
+}
